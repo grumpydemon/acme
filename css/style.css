@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #cacaca;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+
+header {
+  background: #34345a;
+  color: #ffffff;
+  padding: 1.5rem;
+  border-bottom: 0.6rem solid #692b75;
+}
+header .highlight {
+  color: #692b75;
+}
+header .active {
+  color: #692b75;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+header li {
+  list-style-type: none;
+  padding: 0 1rem;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+header a:hover {
+  color: #692b75;
+}
+header h1 {
+  margin: 0;
+}
+
+#showcase {
+  min-height: 34rem;
+  color: #ffffff;
+  background: url("../img/showcase.jpg") no-repeat 0 -34rem;
+}
+#showcase h1 {
+  margin: auto;
+  font-size: 2.7rem;
+  padding-top: 10rem;
+}
+#showcase p {
+  font-size: 1.2rem;
+}
+
+.newsletter {
+  padding: 2rem;
+  background: #34345a;
+  color: #ffffff;
+}
+.newsletter .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter input[type=email] {
+  padding: 0.6rem;
+}
+.newsletter .btn {
+  padding: 0.7rem;
+  color: #34345a;
+  border: none;
+  background: #cacaca;
+}
+
+#boxes {
+  margin-top: 4rem;
+}
+#boxes .container {
+  display: flex;
+  flex-direction: row;
+}
+#boxes .box {
+  width: 30vw;
+  padding: 3rem;
+  color: #34345a;
+  text-align: center;
+}
+#boxes h3 {
+  font-weight: bold;
+}
+#boxes img {
+  width: 7rem;
+  height: 7rem;
+}
+
+.main {
+  text-align: center;
+}
+.main .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main .main-col {
+  background-color: #ffffff;
+  color: #34345a;
+  padding: 4rem;
+}
+.main .main-col ul {
+  padding: 1.6rem;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.main .main-col ul li {
+  list-style-type: none;
+}
+.main #sidebar {
+  background-color: #34345a;
+  color: #ffffff;
+  padding: 4rem;
+}
+
+.form {
+  background-color: #34345a;
+  color: #ffffff;
+  padding: 4rem;
+}
+.form form input {
+  padding: 0.8rem;
+  margin: 0.9rem;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 2rem;
+  background-color: #34345a;
+}
+
+/*# sourceMappingURL=style.css.map */
